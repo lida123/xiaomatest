@@ -211,7 +211,7 @@ class _login_pagePageState extends State<loginPage> {
       decoration: InputDecoration(
           contentPadding: EdgeInsets.only(right: 10),
           border: InputBorder.none,
-          hintText: "请输入登录账号",
+          hintText:  isLogin?"请输入登录账号":"请输入登录密码",
           hintStyle: TextStyle(fontSize: 16.sp, color: Color(0xff999999))),
     ));
   }

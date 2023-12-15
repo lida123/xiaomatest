@@ -181,7 +181,7 @@ class _register_pagePageState extends State<registerPage> {
       decoration: InputDecoration(
           contentPadding: EdgeInsets.only(right: 10),
           border: InputBorder.none,
-          hintText: "请输入注册账号",
+          hintText:isLogin?"请输入注册账号":"请输入注册密码",
           hintStyle: TextStyle(fontSize: 16.sp, color: Color(0xff999999))),
     ));
   }
