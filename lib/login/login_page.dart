@@ -200,7 +200,7 @@ class _login_pagePageState extends State<loginPage> {
       focusNode: isLogin ? loginFocusNode : pwdFocusNode,
       controller: isLogin ? loginController : pwdController,
       onChanged: isLogin ? _onLoginChanged : _pwdOnChanged,
-      obscureText: isLogin ? true : showPwd,
+      obscureText: isLogin ? false : showPwd,
       keyboardType: TextInputType.text,
       cursorColor: Colors.orange,
       style: TextStyle(

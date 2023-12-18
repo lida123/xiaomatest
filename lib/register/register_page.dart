@@ -170,7 +170,7 @@ class _register_pagePageState extends State<registerPage> {
       focusNode: isLogin ? registerFocusNode : pwdFocusNode,
       controller: isLogin ? registerController : pwdController,
       onChanged: isLogin ? _onRegisterChanged : _pwdOnChanged,
-      obscureText: isLogin ? true : showPwd,
+      obscureText: isLogin ? false : showPwd,
       keyboardType: TextInputType.text,
       cursorColor: Colors.orange,
       style: TextStyle(
